@@ -1,42 +1,55 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Portfolio</title>
+	<title>Tyler's Portfolio</title>
 	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../assets/css/style.css">
 </head>
 
 <body>
 	<!-- header: fixed -->
-	<div id="header">
+	<section id="header">
 		
 		<!-- name badge -->
-		<div>Tyler T. Baker</div>
+		<div id="nametag">Tyler T. Baker</div>
 
 		<!-- navigation section -->
-		<div id="about">About</div>
+		<a href="index.html"><div id="about">About</div></a>
 
-		<div id="portfolio">Portfolio</div>
+		<a href="portfolio.html"><div id="portfolio">Portfolio</div></a>
 
-		<div id="contact">Contact</div>
+		<a href="contact.html"><div id="contact">Contact</div></a>
 
-	</div>
+	</section>
 
-	<!-- main portfolio section -->
-		<div id="main">
-		<h2>Portfolio</h2>
+	<!-- Portfolio Gallery -->
+	<div id="gallery">
+		<h2 class="headers">Portfolio</h2>
 		<br>
-		</div>
 
+		<!-- headshot -->
+		<img id="headshot" src="../assets/images/Headshot.png" alt="Tyler Baker">
+
+		<!-- bio -->
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur aliquam mollis vestibulum. Nulla facilisi. Phasellus sed nibh hendrerit arcu aliquam ullamcorper. Integer et nulla pretium, sodales erat ut, luctus dui. Pellentesque et nisi venenatis, mattis felis vel, laoreet lacus. Nunc non urna ac quam semper tristique vitae in sem. Morbi dictum eget eros a laoreet. Etiam in ultricies ligula. Nunc eleifend nisi quis condimentum consectetur. Sed feugiat bibendum metus at volutpat. Vestibulum felis eros, aliquam quis auctor tincidunt, congue et leo.</p>
+
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur aliquam mollis vestibulum. Nulla facilisi. Phasellus sed nibh hendrerit arcu aliquam ullamcorper. Integer et nulla pretium, sodales erat ut, luctus dui. Pellentesque et nisi venenatis, mattis felis vel, laoreet lacus. Nunc non urna ac quam semper tristique vitae in sem. Morbi dictum eget eros a laoreet. Etiam in ultricies ligula. Nunc eleifend nisi quis condimentum consectetur. Sed feugiat bibendum metus at volutpat. Vestibulum felis eros, aliquam quis auctor tincidunt, congue et leo.</p>
+	</div>
 
 	<!-- connect with me section -->
+	<section id="section">
 	<div>
-		<div id="connect">Connect with Me</div>
+		<div id="connect" class="headers">Connect with Me</div>
+		<br>
 
-		<img id="git-icon" src="../assets/images/github.png">
-		<img id="linked-icon" src="../assets/images/linkedin.png">
+		<a href="https://github.com/ttbaker" target="_blank"> <img id="git-icon" src="../assets/images/github.png"></a>
 
-		<img id="stack-icon" src="../assets/images/stackoverflow.png">
+		<a href="https://www.linkedin.com/in/tyler-baker-93398832/" target="_blank"><img id="linked-icon" src="../assets/images/linkedin.png"></a>
+
+		<a href="https://stackoverflow.com/users/8126936/tyler?tab=profile" target="_blank"><img id="stack-icon" src="../assets/images/stackoverflow.png"></a>
+
 	</div>
-</body>
+	</section>
 
+</body>
 </html>

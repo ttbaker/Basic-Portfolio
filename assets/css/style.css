@@ -1,0 +1,207 @@
+.navigation_bar {
+	position: fixed;
+	background: #fff;
+	top: 0;
+	left: 0;
+	right: 0;
+	padding-top: 42px;
+	height: 37px;
+	z-index: 100;
+}
+
+.nametag {
+	position: absolute;
+	background: #4aaaa5;
+	top: 0px;
+	left: 25px;
+	width: 150px;
+	height: 45px;
+	padding-top: 35px;
+	text-align: center;
+	color: white;
+	font-size: 146%;
+}
+
+.nametag, p, body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.mynavbar {
+	position: relative;
+	float: right;
+	margin-right: 8px;
+	color: black;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	font-size: 150%;
+}
+
+.main, #gallery {
+	background-color: #fff;
+	position: absolute;
+	top: 150px;
+	left: 25px;
+	width: 650px;
+	padding: 20px;
+	height: 600px;
+}
+
+.headers {
+	font-family: Georgia, times, serif; 
+	color: #4aaaa5;
+	font-size: 30px;
+}
+
+h2 {
+	border-bottom-color: grey;
+	border-bottom: 5px;
+}
+
+body {
+	background-image: url('../../assets/images/concrete-texture.png');
+}
+
+p::first-letter {
+	font-size: 200%;
+}
+
+.portpic{
+	float: left;
+	position: relative;
+	left: 48px;
+	height: 160px;
+	width: 150px;
+	margin: 16px;
+}
+
+#tag1 {
+	position: absolute;
+	left: 84px;
+	top: 260px;
+	background-color: #4aaaa5;
+	width: 140px;
+	text-align: center;
+	padding: 5px;
+	color: white;
+}
+
+#tag2 {
+	position: absolute;
+	left: 266px;
+	top: 260px;
+	background-color: #4aaaa5;
+	width: 140px;
+	text-align: center;
+	padding: 5px;
+	color: white;
+}
+
+#tag3 {
+	position: absolute;
+	left: 448px;
+	top: 260px;
+	background-color: #4aaaa5;
+	width: 140px;
+	text-align: center;
+	padding: 5px;
+	color: white;
+}
+
+#tag4 {
+	position: absolute;
+	left: 84px;
+	top: 445px;
+	background-color: #4aaaa5;
+	width: 140px;
+	text-align: center;
+	padding: 5px;
+	color: white;
+}
+
+#tag5 {
+	position: absolute;
+	left: 266px;
+	top: 445px;
+	background-color: #4aaaa5;
+	width: 140px;
+	text-align: center;
+	padding: 5px;
+	color: white;
+}
+
+#tag6 {
+	position: absolute;
+	left: 448px;
+	top: 445px;
+	background-color: #4aaaa5;
+	width: 140px;
+	text-align: center;
+	padding: 5px;
+	color: white;
+}
+
+#headshot{
+	float: left;
+	height: 160px;
+	width: 150px;
+	margin-right: 10px;
+}
+
+.icon {
+	height: 32px;
+	width: 32px;
+}
+
+#section {
+	position: absolute;
+	background-color: white;
+	top: 150px;
+	right: 100px;
+	width: 270px;
+	padding: 10px;
+	text-align: center;
+}
+
+footer {
+	position: fixed;
+	background: grey;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 5px;
+	padding: 15px;
+	text-align: center;
+}
+
+/* contact me css*/
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #ccc; /* Gray border */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: grey;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+    background-color: white;
+    padding: 20px;
+}
